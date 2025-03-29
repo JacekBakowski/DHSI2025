@@ -7,7 +7,11 @@ Go to https://cran.r-project.org/ and select version appropriate for your system
 Note that if you use MacOS you need to also install XQuartz (https://www.xquartz.org/) and restart your computer afterwards.  
 If you installed XQuartz but still can't install package in the next step, look here: https://github.com/computationalstylistics/stylo#1-installing-from-cran or write me an e-mail with an error you're getting.
 
-### 2. Stylo package
+### 2. R Studio
+We also strongly recommend to install R Studio, an integrated development environment for R with a graphic user interface. It is much more convenient to work with R Studio than with the standard version of R.
+To install R Studio go to: https://posit.co/downloads/
+
+### 3. Stylo package
 Launch R, make sure you are connected to the internet, and type:
 ```
 install.packages("stylo")
@@ -20,7 +24,7 @@ library(stylo)
 ```
 You should now be greeted with a message of a kind:
 ```
-### stylo version: 0.6.8 ###
+### stylo version: 0.7.5 ###
 
 If you plan to cite this software (please do!), use the following reference:
     Eder, M., Rybicki, J. and Kestemont, M. (2016). Stylometry with R:
@@ -33,10 +37,11 @@ If nothing happened - 'stylo' was not installed, look what the message that appe
   
 You can also try to install 'stylo' another way, e.g. from Github or from a local file. To do so look at general instruction: https://github.com/computationalstylistics/stylo
 
-### 3. Gephi
+### 4. Gephi
 Please go to: https://gephi.org/ and download Gephi.  
 After installing it, run and check that the program opens.
 
 ## Corpora to download
 Please download [a small corpus for first experiments](https://github.com/computationalstylistics/A_Small_Collection_of_British_Fiction) for the first class.
 
+If you encounter any problems configuring your environment, please feel free to contact us even before the course begins :)
